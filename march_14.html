@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>www.nike.com</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <style>
+            .first{
+                padding-top: 1%;
+                font-size:14px;
+            }
+            .second{
+                padding-right:6%;
+                font-size:16px; 
+                font-family: fantasy;
+            }
+            .third{
+                margin-left: 10%;
+            }
+        
+        </style>
+    </head>
+    <body style="margin: 0">
+        <div class = "row hidden-xs">
+            <div class = "first col-sm-1  text-center "><a href = "#" style="color:black">Nike</a></div>
+            <div class = "first col-sm-1 text-center"><a href = "#" style="color:black">NikePlus</a></div>
+            <div class = "first col-sm-1  text-center"><img src = "data:image/png;base64,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" width= "20" height = "20"/></div>
+            <div class = "col-sm-6  text-center">&#160;</div>
+            <div class = "col-sm-1  text-center first" ><a href = "#" style="color:black">Help</a></div>
+            <div class = "col-sm-1  text-center first"><image src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAB2CAMAAAAqeZcjAAAAZlBMVEX///8AAACqqqq8vLylpaXR0dF1dXX7+/vd3d3a2trv7++VlZXs7Ozn5+ewsLBvb29AQED19fVhYWHKysrDw8NISEi2trYQEBCOjo4yMjIkJCRnZ2eHh4c3NzdaWlp8fHwaGhpQUFDQ5BNsAAACuElEQVRoge2Z2bKiMBBAc9kXkUWURUD5/5+ckcxIkYjZmq6pqZxnimOamF5CiMVisVgslv+c0t8S4Wijny1FieOtGG+Go3UZbYqjTZqtdsLRksdW+0TaVH4e/OG6eM842pV60c7YWkLDHGJr80V7w9bSKD+wtVn30vboUb7TE8OBxvt+9rFHFhT9d21ykFa0XfJjtLFAez7EOos2aXmI1hNYCSmO0CZC7RFRroRWEj3htbVYS2Zw6yhTnnng2kHCSjJwrVRRWM7A1kous6TAWskiCTrKclZCelCrdNEAG+WLrPYCaS1krYR0gFpxFnjzEL9NGoVOzoezBvJWksBlP5ksAB/lRsUKt5fVmuUQSqvYtAJF+apmhSrTVZu4sBG/U0x3UtSSCUKr3jqCRFnUC/BkANlPIQu8uZtrFbLAG8dcq7yhCEQzpDdXM46yUhZ4Y1qmF+J+6xOmBaRUL/CBUV/Zj/Oks6FeqES56buxmKug9Vw/jqLsVGoPmcSlTV9UQXq+ubUfZ3BD95lbU3ed8qFNvVsd68ZQTEuXNN2DwTtfoiw7Jfqxk4feXkhMAGAp6VhbPY8YQpshpDuLFbqXdfKXGXQDI91ZrAyL1sHW0jId/c6ipC0n0rXfCp3z6lQnRtAo59ja0xLlBumWc9XSa9bUlaEGOs+yXK1abq4ugFVntBwY73q98VRhmBp1O3qVIQlPOGtqf3wTLVdJ5Y73kZZthY2WO7DavSqD+xijSZnF9SJ7sx6+RzNJlHwLtPMgv+FNTg1O+9x5kP93m6y2lf22NfugZs9Fidm37Q17EvYANfvjMrOa/TskNi5mpRez3P1DnpnH6jaYf9l0fK3sDxRe1Qpx1/Pne1mTresdAJqkcljeNz5E1UXozK8H+7vRebySxL4v1VOGvx/0sWsfi8VisVgs/xK/ADsZI6u4hqsmAAAAAElFTkSuQmCC" width= "20" height= "20"/></div>
+            <div class = "col-sm-1  text-center first"><img src="https://content.nike.com/content/dam/nike/global/country_flags/in_sml.png"></div>
+        </div>
+        <div class = "row visible-xs">
+            <div class = "col-xs-5 text-center" ><img src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAYAAACMGIOFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMVSURBVGhD7Zo/SLJBHMdPl/4JQpC1FFE4NEQtSRA0ZzTZ4GJLhRStQU0JTSG62NDSVEtFUbS5iEOGEQ4piEsuSn+GCLSgXH75u/ceOZ/n6bV8tffpuA98MZ/ufncfuueeUzJBGSI4ZvYqNFJSFKSkKEhJUZCSoiAlRUFKioKUFAUpKQrCfjNweXlJLi4uiNlc/juipB53d3fw+vrK3hmf5+dnODw8hOnpabDZbDA/Pw+3t7f0d59Kzs3NsZ+MSywWg42NDejq6sLVCFarFba3t6FUKrEWf9CVdDqdcHp6yt4Zh3Q6Dbu7u+BwOKC1tZWKYSYnJyEej7NWWjSSJycntKMReHh4gLOzM5idnaVLUJFS4vV6aZtaaGywc09PD3v3s7y9vUF5s4C1tTXo7+8Hk8mkEevt7YWdnR14f39nvWpTJTkyMkILDQ8PsyvNJ5lMQigUgrGxMejo6NBIKZmYmIBIJMJ6fY+KJC4LpWBfXx+72njy+Ty9JWZmZuiK4UX04vF4IJvNst71UZFUF28UhUKBLsGVlRUYGBjQjINRL8vu7m7w+/1QLBZZlX+D2mxtbVUGUwYMBoO0QT2kUikIBAJ0Cba1tVUJKOHHUjI6Ogrn5+esSuOgkp8NfH19TRvVIpfLwdHREUxNTenughiltloM43K56OOhWRB8oKonwU9kcXERMplM1enn8fERotEoLCwsgN1ur7Tlo67H18R0dnaCz+eDp6cnVrV5kNXV1S9NCk8TuK3jFs5f56NXA8O3GRoagoODAzb8z0DwvvnbBDH8JPnotVWibou7aSKRYMP+LKSlpaXmhL8TXsxiscD6+vqXTiXNhOC90QhJXm5wcBD29vbYEP8f4na765bkxTC4u15dXbHSxoHgsUqZpJ6IXngx/DSAZ837+3tW0njQ5+TS0lJNUV4Mg4+O/f19WsToVM5vm5ubGhF12tvbYXl5GW5ubliv30HVdzwvLy/k+PiYhMNhUr636LXx8XGa8gdV+vobkf/iIgpSUhSkpChISVGQkqIgJUVBSoqClBQFKSkGhHwABKl9f3scxmkAAAAASUVORK5CYII="/></div>
+            <div class = "col-xs-3">&#160;</div>
+            <div class = "col-xs-1" style="padding-top:4%"><image src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAXCAYAAADgKtSgAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKJSURBVEhLrZXNS2pBFMCPFwUFwQ+s3Ljxi1wkiosWISKCgbRx5T4XJULL/g0XErgRMhOh/yAi3AW2aSEGLcRQCLGsDCFdyHkz540Xr/fp89H7wTBnzpxzZu6ZM3M1yIA5RqMR3N/fQ7lchnq9Dt1uF2w2G8RiMdjf34dIJAKbm5vC+i/w4DNub2/R4/HwxZY2q9WKlUpFeKxGDn52dqYIsre3h4VCAWu1Gp6fn2M8HlfM53I54bkcCn5zcyM7BYNBfHl5oclFWIrw4OBAtuWLrgK+vr7Q6XTKgdchGo2SvVarxY+PD6FVA/O7fn19FerVdDodZIdKPtlsVmjVSMVikdkAhMNhqop1cDgckEgkSH58fITJZEKyCmZIO1i3AmZcXV2Rn9FoxOfnZ6FVIvE65uzu7lK/Li6Xi3p+L8bjMcmLSGazmYSnpyfq1+X9/Z16nU4H7GBJXkRiJ0/CxcUF9etyeXlJfSgUArvdTrKKarUqVwv7RJGt1by9vSFLC/kcHx8LrRr+diD7NDI8PDwU6tWk02myNxgM2Gg0hFYN3dBSqSTvPpVK4WAwoMlFPj8/8ejoSLbd2NgQM39GfltOT09lJ35jT05O8Pr6GpvNJt7d3WEmk0Gv1yvbzJrf7xcR1ChexXw+jxqNRhVgvun1emSXTaEzmUwighJFcE673aZDYlWAkiTJAQKBAOX64eGB7HZ2dhQLbG9vI3+n5lH9LGYwQ+j3+3S1eS1vbW0B26GY/Q2/I8PhUIwAWDqh1WqJEYOW+AE+n0/xBTxF39/fNPfj4DwVs5qfNb7gdDpdnpZ/xWKxACtVMQJgZwKSkH9Mr9cDtmMxAnC73ewb/iM8Fbzuk8kkGyH+ArDhdidZmxdpAAAAAElFTkSuQmCC"/></div>
+            <div class = "col-xs-1" style="padding-top:4%" ><image src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAHYAAAB2CAMAAAAqeZcjAAAAZlBMVEX///8AAACqqqq8vLylpaXR0dF1dXX7+/vd3d3a2trv7++VlZXs7Ozn5+ewsLBvb29AQED19fVhYWHKysrDw8NISEi2trYQEBCOjo4yMjIkJCRnZ2eHh4c3NzdaWlp8fHwaGhpQUFDQ5BNsAAACuElEQVRoge2Z2bKiMBBAc9kXkUWURUD5/5+ckcxIkYjZmq6pqZxnimOamF5CiMVisVgslv+c0t8S4Wijny1FieOtGG+Go3UZbYqjTZqtdsLRksdW+0TaVH4e/OG6eM842pV60c7YWkLDHGJr80V7w9bSKD+wtVn30vboUb7TE8OBxvt+9rFHFhT9d21ykFa0XfJjtLFAez7EOos2aXmI1hNYCSmO0CZC7RFRroRWEj3htbVYS2Zw6yhTnnng2kHCSjJwrVRRWM7A1kous6TAWskiCTrKclZCelCrdNEAG+WLrPYCaS1krYR0gFpxFnjzEL9NGoVOzoezBvJWksBlP5ksAB/lRsUKt5fVmuUQSqvYtAJF+apmhSrTVZu4sBG/U0x3UtSSCUKr3jqCRFnUC/BkANlPIQu8uZtrFbLAG8dcq7yhCEQzpDdXM46yUhZ4Y1qmF+J+6xOmBaRUL/CBUV/Zj/Oks6FeqES56buxmKug9Vw/jqLsVGoPmcSlTV9UQXq+ubUfZ3BD95lbU3ed8qFNvVsd68ZQTEuXNN2DwTtfoiw7Jfqxk4feXkhMAGAp6VhbPY8YQpshpDuLFbqXdfKXGXQDI91ZrAyL1sHW0jId/c6ipC0n0rXfCp3z6lQnRtAo59ja0xLlBumWc9XSa9bUlaEGOs+yXK1abq4ugFVntBwY73q98VRhmBp1O3qVIQlPOGtqf3wTLVdJ5Y73kZZthY2WO7DavSqD+xijSZnF9SJ7sx6+RzNJlHwLtPMgv+FNTg1O+9x5kP93m6y2lf22NfugZs9Fidm37Q17EvYANfvjMrOa/TskNi5mpRez3P1DnpnH6jaYf9l0fK3sDxRe1Qpx1/Pne1mTresdAJqkcljeNz5E1UXozK8H+7vRebySxL4v1VOGvx/0sWsfi8VisVgs/xK/ADsZI6u4hqsmAAAAAElFTkSuQmCC" width= "20" height= "20"/></div>
+            <div class = "col-xs-1" style="padding-top:4%"><image src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAALEwAACxMBAJqcGAAAAG5JREFUSIntkk0KgCAQRl8epJ+LlXWyoHsFXqRapFG0cPNVJD4QcRbfyMyDzNcUp9sClSjXASOwhkLvH8pjAYxvcHQSssB1RC3QiMJnYOKZj79MGJFhX0opyr1ZNJCCRR1Qi8KzRVGyRVESsuj/bHPbVg2Xt94DAAAAAElFTkSuQmCC"/></div>
+        </div>
+        <hr class = "hidden-xs" style="margin: 0">
+        <div class = "row hidden-xs">
+            <div class = "col-sm-3 text-center"><img src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADkAAAA5CAYAAACMGIOFAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAMVSURBVGhD7Zo/SLJBHMdPl/4JQpC1FFE4NEQtSRA0ZzTZ4GJLhRStQU0JTSG62NDSVEtFUbS5iEOGEQ4piEsuSn+GCLSgXH75u/ceOZ/n6bV8tffpuA98MZ/ufncfuueeUzJBGSI4ZvYqNFJSFKSkKEhJUZCSoiAlRUFKioKUFAUpKQrCfjNweXlJLi4uiNlc/juipB53d3fw+vrK3hmf5+dnODw8hOnpabDZbDA/Pw+3t7f0d59Kzs3NsZ+MSywWg42NDejq6sLVCFarFba3t6FUKrEWf9CVdDqdcHp6yt4Zh3Q6Dbu7u+BwOKC1tZWKYSYnJyEej7NWWjSSJycntKMReHh4gLOzM5idnaVLUJFS4vV6aZtaaGywc09PD3v3s7y9vUF5s4C1tTXo7+8Hk8mkEevt7YWdnR14f39nvWpTJTkyMkILDQ8PsyvNJ5lMQigUgrGxMejo6NBIKZmYmIBIJMJ6fY+KJC4LpWBfXx+72njy+Ty9JWZmZuiK4UX04vF4IJvNst71UZFUF28UhUKBLsGVlRUYGBjQjINRL8vu7m7w+/1QLBZZlX+D2mxtbVUGUwYMBoO0QT2kUikIBAJ0Cba1tVUJKOHHUjI6Ogrn5+esSuOgkp8NfH19TRvVIpfLwdHREUxNTenughiltloM43K56OOhWRB8oKonwU9kcXERMplM1enn8fERotEoLCwsgN1ur7Tlo67H18R0dnaCz+eDp6cnVrV5kNXV1S9NCk8TuK3jFs5f56NXA8O3GRoagoODAzb8z0DwvvnbBDH8JPnotVWibou7aSKRYMP+LKSlpaXmhL8TXsxiscD6+vqXTiXNhOC90QhJXm5wcBD29vbYEP8f4na765bkxTC4u15dXbHSxoHgsUqZpJ6IXngx/DSAZ837+3tW0njQ5+TS0lJNUV4Mg4+O/f19WsToVM5vm5ubGhF12tvbYXl5GW5ubliv30HVdzwvLy/k+PiYhMNhUr636LXx8XGa8gdV+vobkf/iIgpSUhSkpChISVGQkqIgJUVBSoqClBQFKSkGhHwABKl9f3scxmkAAAAASUVORK5CYII="/></div>
+            <div class = "first col-sm-6 hidden-xs ">
+                <ul style = "list-style-type: none">
+                    <li class = "second" style="float: left; margin-left:3%"><a href = "#" style="color:black">WOMEN</a></li>
+                    <li class = "second" style="float: left;"><a href = "#" style="color:black">MEN</a></li>
+                    <li class = "second" style="float: left;"><a href = "#" style="color:black">BOYS</a></li>
+                    <li class = "second" style="float: left;"><a href = "#" style="color:black">GIRLS</a></li>
+                    <li class = "second" style="float: left;"><a href = "#" style="color:black">CUSTOMISE</a></li>
+                </ul>
+            </div>
+            <div class = "first col-sm-3 hidden-xs"><input type = "text" placeholder="Search" style= "1px solid black; width:200px; height:38px"></div>
+        </div>
+        <hr class = "hidden-xs">
+        <div class = "text-center"><image src = "https://s3.nikecdn.com/unite/app/376/images/swoosh_plus_black.png"/></div>
+        <div class = "text-center" style="font-family: fantasy; font-size: 27px; margin-top:2%">YOUR ACCOUNT FOR <br>EVERYTHING NIKE</div>
+        <div class = "text-center hidden-xs" style="margin-top:1%">Nike at your service, providing access to ultimate gear,<br> expert guidance, incredible experiences and endless<br> motivation.</div>
+        <div class = "text-center hidden-xs" style ="background-color: #21538D; height:40px; width:30%;margin: 0 auto; line-height: 34px; margin-top:2%">
+            <span style="float:left; margin-left:2%">
+                <a href="#"> <image src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAFZaVRYdFhNTDpjb20uYWRvYmUueG1wAAAAAAA8eDp4bXBtZXRhIHhtbG5zOng9ImFkb2JlOm5zOm1ldGEvIiB4OnhtcHRrPSJYTVAgQ29yZSA1LjQuMCI+CiAgIDxyZGY6UkRGIHhtbG5zOnJkZj0iaHR0cDovL3d3dy53My5vcmcvMTk5OS8wMi8yMi1yZGYtc3ludGF4LW5zIyI+CiAgICAgIDxyZGY6RGVzY3JpcHRpb24gcmRmOmFib3V0PSIiCiAgICAgICAgICAgIHhtbG5zOnRpZmY9Imh0dHA6Ly9ucy5hZG9iZS5jb20vdGlmZi8xLjAvIj4KICAgICAgICAgPHRpZmY6T3JpZW50YXRpb24+MTwvdGlmZjpPcmllbnRhdGlvbj4KICAgICAgPC9yZGY6RGVzY3JpcHRpb24+CiAgIDwvcmRmOlJERj4KPC94OnhtcG1ldGE+CkzCJ1kAAAIiSURBVDhP1ZPPaxNBFMe/s7+6iVVTDeihIgpatTcPguDVgiAI6k3wPxAvHkQRexAPgidv/QO8FdoeDPSqKJSeREsQq6IQCsGoaXbT7mZ3fG92YjLsLh48+SG7s/Pey3f2O29WHLv2RKIEKSVcy8Jmu4cp28bc8aPopwOV84WDt2EH4U4ECPoJuhGlgixmU9FmexuLdy/j6qVzOjPi9qMVLK+/h6DFhoKWupcgZYqLM9NaLL9uGMdUoyeaUkFhC3x610Hj2Y1hRI8jfI/fTE80hYJsl+sOViZgT1SzoGIAcfgWxIX7EOfv4fkb0y6TE2QHXODSePpMnWccVkS71IC9FcxMT+EkXTXfo6j5ioYgvxkHPncCfPwR4ufXXpbQqP1qBfjwPbsyzE109KjEuKvdnRiNB1ewHUSIHdOAY7t4vHAdJ2pVTFY93HzawD7fRcJbpG3/OTbZmRPY+hWguzqvkn9j/9w8DtUmESdp+bExdySPsq3pxZIMm5ZNwbFulTEsaX1rId3aRaJio/+NLPOElk/ooUIW+kJilnr9YukOpxVhGKB+9iGOnKojIo3YtuCVdZnDklaibURKB3aP56Dt21lS45BAP7UgfAcuPbumW4VhWa1FolEqMaBiOzFXF+yD9o3zNBhWhxQ2JV82BomwTpEYkxP8V/5jQd4h7vg4rktf6vjJLqBUkBqJrkyw0fyCl2sbeL3exKu1JnDAzw5tIcBvjWK3Sh1fMb8AAAAASUVORK5CYII="/></a></span>
+            <span style="color:white;font-family:fantasy; ">REGISTER WITH FACEBOOK</span>
+        </div>
+        <div class = "text-center hidden-xs" style="margin: 0 auto;">
+             <div class = "row text-center hidden-xs" style="margin: 0 auto">
+                <div class="col-sm-4">&#160;</div>
+                <div class = "col-sm-1"><hr></div>
+                <div class = "col-sm-2" style="margin-top:.5%; color:lightgray">OR</div>
+                <div class = "col-sm-1"><hr></div>
+            </div>
+        </div>
+        <div class="container text-center">
+            <div class = "row" style="margin:0">
+                <div class = " col-sm-offset-4 col-sm-4">
+                    <form>
+                        <div class = "form-group text-center">
+                            <input type= "Email"  style="margin-top:2% " class="form-control" placeholder = "Email">
+                        </div>
+                        <div class = "form-group">
+                            <input type= "Password" class="form-control" placeholder = "Password">
+                        </div>
+                        <div class = "form-group hidden-xs">
+                            <input type= "Email" class="form-control" placeholder = "Email">
+                        </div>
+                        <div class = "form-group hidden-xs">
+                            <input type= "First Name" class="form-control" placeholder = "First Name">
+                        </div>
+                        <div class = "form-group hidden-xs">
+                            <input type= "Last Name" class="form-control" placeholder = "Last Name">
+                        </div>
+                        <div class = "form-group hidden-xs">
+                            <input type= "text" class="form-control" placeholder = "Date Of Birth">
+                        </div>
+                        <div class = "form-group hidden-xs">
+                            <input type= "text" class="form-control" placeholder = "India">
+                        </div>
+                    </form>
+                 </div>
+             </div>
+            <div class = "row hidden-xs">
+                <div class = " col-sm-offset-4 col-sm-8">
+                    <div class = "row">
+                        <div class = "col-sm-3">
+                            <form>
+                                <span class = "form-group text-center">
+                                    <input type= "text" class="form-control" placeholder = "Male">
+                                </span>
+                             </form>
+                        </div>
+                        <div class = "col-sm-offset-1 col-sm-3">
+                            <form>
+                                <span class = "form-group text-center">
+                                    <input type= "text" class="form-control" placeholder = "Female">
+                                </span>
+                             </form>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+            <div class = "text-center hidden-xs" style="margin: 0 auto">
+                 <input type="checkbox" style=" width:15px; height: 15px; margin-top: 1%">Sign up for emails to hear all the latest from Nike.
+                
+                <p style="margin-top:1%;">By creating an account, you agree to Nike's <a href = "#" style="color:black"><u>PrivacyPolicy</u> </a>and <br><a href = "#" style="color:black"><u>Terms of Use</u></a></p>
+            </div>
+            
+            <div class = "hidden-xs" >
+                <input type = "button" value = "CREATE ACCOUNT" style="background-color:black; color: white; margin:1%; padding:1% 10%">
+                <p>Already a member? <a href = "#" style="color:black"><u>Sign Up</u></a></p>
+            </div>
+            
+            <div class = "visible-xs" style="float: left;  font-size:13px">
+                <input type="checkbox" style=" width:15px; height: 15px; margin-top: 1%">Keep me logged<br>in
+            </div>
+            <p class = "visible-xs" style="float:right; font-size:13px">Forgotten Your <br>Password?</p>
+        </div>
+        <p class = "text-center visible-xs" style="font-size:13px">By loggin in, you agree to Nike's <a href = "#" style="color:black">                 <u>PrivacyPolicy</u></a>and <br><a href = "#" style="color:black"><u>Terms of Use</u></a>
+        </p> 
+        
+         <div class = "visible-xs text-center">
+             <input type = "button" value = "LOG IN" style="background-color:black; color: white; padding: 2% 0%; font-family: fantasy; width:80%">
+         </div>
+          <div class = "visible-xs text-center" style="margin-top:3%">
+              <input type = "button" value = "LOG  IN  WITH  FACEBOOK" style ="background-color: #21538D; color: white; padding: 2% 0%; font-family: fantasy; width:80%">
+         </div>
+        
+         <p class = "text-center visible-xs" style="font-size:13px; margin-top: 7%">Not a member?<a href = "#" style="color:black"><u>Join              Now</u></a></p>
+        
+        
+        <div style = "clear: both"></div>
+        <div class = "hidden-xs" style="background-color:black; height: 290px">
+           <div class = "container"> 
+             <div class = "col-sm-9 " style="padding-top:2%">
+                <ul style = "list-style-type: none; color:white">
+                    <li  class = "second" style="float: left; margin-left:18%">FIND A STORE</li>
+                    <li  class = "second third" style="float: left;">GET HELP</li>
+                    <li  class = "second third" style="float: left;">ABOUT NIKE</li>
+                </ul>
+            </div>
+               <div style = "clear: both"></div>
+            <div>
+                 <div style = "float:right; margin-right:2%"><a href= "#"><image src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAASJSURBVEhLtZdJKLVtGMcvxzzPkqGIDUkiQoZEKdPCQoqdbIgV+28vG8TCwgplY4EkNkTEhhLJwhyZ53n4/C7n0Tnnw3lf9f3r6XnOPVz/+xrv6zi8vUP+AIuLi7K3tydHR0dyeXkpj4+P4urqKt7e3hIcHCzh4eGSlJRkXv0zfiQ9OzuT4eFhWVlZ0d9RUVESGRkpnp6e4ubmJvf393JzcyM7OzuysbEhDg4OEhcXJ6WlpeLv7697vsK3pJDNzMxIYGCg5ObmSmpqqnnmeywsLMjk5KQcHx9LVlaWlJSUmGes8R/S19dXaW9vVzOyKT093Tzz55ibm9NDY/aGhgYxmUzmmQ9YkULY0tIiLy8vUl9fL76+vuaZv8f5+bl0dnaKo6OjNDc3WxFbHaGjo0Oen5+lqanJipAgGhwc1O+uri71pT34+fmpHOQh1xKfpCMjI3J4eKgauri4mEc/EBsbq5FLsBBAPA8PDzqHobAMVuKxBHKQh1zkG3D85x1EaX9/v5SVlSmBLdi8trYmm5ubkpGRIUtLSzI0NKSpQ9qMjY3JwcGBmjQsLMy86wMc0MPDQ8bHxyUlJUXc3d0/NEVAUFDQj0GTnJyspKTN+vq6VFVVyfb2ts45OTmp72wDxgByyQJ4gK4iD3NycnTgOwQEBEhISIhqRj5iSogMMPYTkL+6uqrfJoKEDfbyEN8ZgiHE5LwZR9PvtDSQlpama+EzESCYzB4IFiNqyb+BgQHVHn/h7+XlZbvaRkdHa0A69PT0vGG2oqIi89TX4JQXFxeaChxgf39fQkNDVcPT01Otwc7Ozj9qTARTrRza2treEhMTtdTZAmGjo6Nye3ur+YZA3mhk+Q0Zb3xMdBYWFqoVbDE1NaWRb3p6etKw/gp9fX1yd3enBJgREjTGl2jLGG9uHPKW4k/q9Pb2miVYgyCEz8Qpv6owCEBgZWWl1NTUSHV19WfwQIImFRUVmqsATRGItsyz3xYcTF2AL75awBibqZ9o2NraqgGE+WJiYvRAjJO/HIbfFA7yHfKvZF5dXYmPj4+YEMR9aAs2AkyPeTFrQUGBbsrLy9MxzMX9mZCQIPn5+Wru8vJy3Wfst8Tu7q4eysSNT6X5E+AGNMJMmJNonp+fV00hZJzDYA3cYAtqN3wmo8XgArYHiNCYB0BAYTDGONDExIS6hTlLcDj2w6czmIgb3xKcnkXAEMBvWhXmICFovLy8dJzvra0tLXfM81iCdIEHqDR6mpOTE73xDeA7gEACgKhDKMWbNDLSBhLcg1AinTVEtLEfIBf58IDPzoFqMTs7qxcvVQd0d3drc0ZxYMzwKVvwIeN8oz3AxxwSv9XW1uoY1x3dSGZmphQXF+uYVbvyXp1UK9oLzAMBGiCMFCBQGANsM8yPaYlkyOk40N7IVwhJy8bGRl0Lvu2R6urqPjX+DYweiUDDepaB9b91g1zYXCR2u0FL0EJOT09rMv+m783Ozv70oS2+JQWWHT7LuA8jIiI0TahUBNb19bVWGqPAxMfHq4V+1eHbwvK/DMFGUBE8f/9fRuRfdwzR8mmBpbIAAAAASUVORK5CYII="/></a>  
+                 </div>
+                 <div style = "float:right; margin-right:2%"><a href= "#"><image src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAALcSURBVEhLvZc9TypREIaHRVDwAxsTE7BRosZGocLCxhY7f6edJDYSGwIVauFH7DRaaYiKICCiPsOeexdkd7m54pMQYfbsvHvOeWf2GPj4Qobg9vZW7u/v5fn5WV5fX6XT6YhlWRKJRGRmZkbm5uYkkUjYo73xFOVSsViUy8tLGR8fl1AoJIFAQD8GxvB5e3uTZrMpq6ursrm52TOmH1fRk5MTOT4+lmg0qmLDgni9XpdUKiUbGxt2tJeBovv7+7qMExMTduTfaTQauuw7Ozt25C/fRPf29qTdbrvOjuGtVkv3NRwO21HR5Q8Gg/avLsx6bGxMdnd37UiXHtFcLicvLy+eguwby7a2tmZHuxweHkqlUhkoPDU1Jdls1o6IWPZfOT09lcfHR8/9Y8m2t7e/CQJuHgT5yEt+g4oyg3K5rPZ3g6Szs7MyPz9vR3rpn6ET8pLfLKqKlkolmZyc1IAb7+/vKurk4eFBjo6OpFAoSLVa1bp1g/zogI46Pz/XDfejf8zZ2Zk2jbu7O907r9rkXnTA4ga/0mCWuJXETojj9P64G+igF/hqAB9XV1euM2Uvp6enZWlpSV3o3FMSGLczC4zmtcQ84PLyslhPT0+ey4IoXSmZTH4zUTwel5WVFVlcXPTMYWAMehZP59knv645SnkgXPfLA1zX1WBf/AbTgWiLLKUTHEtDwMXk8QMd1Ts4OPjwszsDa7Wa7uvW1pYdFcnn83Jzc6PtkDbo9/DGHxaO8ls+Cp8Cd/Za4DdxcvgJAjqMtWKxmK/oT4EOehZv/GHr7H9BBz0L2+Oo3wAd9NQ9vDUo3FFCfvN2UtFMJqPuHCXkRwdUFOel02ntr6OAvOQ3Dv9TnOvr6/rqcjMVzuuvZa/aNpCPvOQ3DH1GokFg94WFBf1O7V5fX2tXcnuBI+h7RjK4nQYR44FYJm4joZsgTh36NGj49XOvgUscMS4uLn7nhN/Pz/0vI/IJFSjW3e/0Y+4AAAAASUVORK5CYII="/></a>  
+                 </div>
+                 <div style = "float:right; margin-right:2%"><a href= "#"><image src = "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAdCAYAAABWk2cPAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAJ9SURBVEhL5Ze7anJBEMdXsfASiGghFiJGRRsFa3vzACmsJF3sFVKJmKipBIVUNpb6Cj6HIFiYiIIIkhRRgwSMmzPr+Hkuo0cNpPl+8Ed3di7snt0zauAS7I8x4uefclbRz89PNhwO2Xw+R8uJwPYeQ7Va5aFQCB6FRldXV7xSqaCnPrpFi8UiWWifcrkcRu7nYFG/308m1pPb7ebr9RqzaNl7es1mM/v6+sLReXx/fzOjUXtsyIMUDAZ/XRCQVozfVIj1yiiVSprt+o0ymQxm3qEpSgXqKRKJcJvNRs6BpF3D7BsUReFaUEGpVIq0e71ePh6PRSwcnPv7e5EjEAgo/MrlsvDZoigaDocVzlsBrVZLY+90OmJOzmQy4dfX1wo/h8OBsxsUReWOcvV6PTE/nU757e0tt9vt3GQy8cViIexyarUamUPOv5H0aiOdQclkUnHvVqsVf3l54dKVQMuOm5sbMsdgMEAPWdHX11fSGSQP0CMej5M5+v0+esiKSi9v0hkUjUbFs9Lj0G7BorYc9UxBjUYDvfZTKBTIWJAcxQi6BRUASiQS/OPjAz21jEYjMg50cXGBXhsURaE9UUFbuVwucYDUvL+/88vLSzIG9Pj4iJ4blOuWUAdAsufnZ/JOAs1mUxOjlnqHNF0mn88zqYfiaId04VksFmMej4fNZjPW7XZZu91mb29v6EFzd3fH6vU6jhBRWgX0Q5j6raxWK2ZUQvZTMFF98FSWy6Xoy2rIzAaDQTRg6eCg5TQsFsveggJY6SGy2axm2w4pnU5j5H50iwLQD5+enrjT6SQLwT18eHg4eI/lnPULH37zwvbDY/D5fGg9nv/lbwVjP4I8bVxOqwE/AAAAAElFTkSuQmCC"/></a>  
+                 </div>
+            </div>
+             <div style = "clear: both"></div>
+             <div class = "col-sm-9 " style="padding-top:2%">
+                <ul style = "list-style-type: none; color:white">
+                    <li  class = "second" style="float: left; margin-left:18%">SIGN UP FOR EMAIL</li>
+                    <li  style="float: left;margin-left: 6%;">Order status</li>
+                    <li  style="float: left;margin-left: 14%;">News</li>
+                </ul>
+            </div>
+            <div style = "clear: both"></div>
+             <div class = "col-sm-9 " style="padding-top:2%">
+                <ul style = "list-style-type: none; color:white">
+                    <li  class = "second" style="float: left; margin-left:18%">BECOME A MEMBER</li>
+                    <li  style="float: left; margin-left: 6%;">Delivery</li>
+                    <li   style="float: left; margin-left: 16%;">Careers</li>
+                 </ul>
+              </div>
+            <div style = "clear: both"></div>
+             <div class = "col-sm-9 " style="padding-top:2%">
+                <ul style = "list-style-type: none; color:white">
+                    <li  class = "second" style="float: left; margin-left:18%">SITE FEEDBACK</li>
+                    <li   style="float: left; margin-left: 9%;">Returns</li>
+                    <li   style="float: left; margin-left: 16%;">Investors</li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <div class = "visible-xs text-center" style="background-color:black; height:200px;" >
+            <div class = "container">
+                 <ul style = "list-style-type: none; color:white; margin-top:5%; padding-top:7%">
+                        <li class = "second" style="float: left; margin-left:4%">ORDERS</li>
+                        <li class = "second" style="float: left; margin-left:4%">STORES</li>
+                        <li class = "second" style="float: left; margin-left:4%">HELP</li>
+                    </ul>
+            </div>
+            <hr style="color:lightgray">
+            <div>
+            <div style="float: left; margin-left:6%"><img src="https://content.nike.com/content/dam/nike/global/country_flags/in_sml.png"></div>
+                <p style="float:left; margin-left: 3%; color:gray; font-size:10px; margin-top:1%">India</p>
+                <p style="float:right; font-size:10px; margin-right: 3%; color:gray">@2018 Nike,Inc.All Rights Reserved</p>
+            </div>
+            <div style="clear: both"></div>
+             <div>
+                <p style="float:left; margin-left: 3%; color:gray; font-size:10px; margin-left: 16%">Email us a Question</p>
+                <p style="float:right; font-size:10px; margin-right: 3%; color:gray; margin-right: 22%">Terms & conditions</p>
+            </div>
+            <div style="clear: both"></div>
+            <div>
+                <p style="float:left; margin-left: 3%; color:gray; font-size:10px; margin-left: 25%">Privacy Policy</p>
+                <p style="float:right; font-size:10px; margin-right: 3%; color:gray; margin-right: 33%">Live Chat</p>
+            </div>
+            <div style="clear: both"></div>
+        </div>
+        
+        
+    </body>
+</html>
+
